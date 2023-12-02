@@ -19,7 +19,7 @@ Consider your entire calibration document. What is the sum of all of the calibra
 */
 
 import { join } from 'path';
-import { loadFile } from '../utils';
+import { loadFile } from '../../utils';
 
 function getFirstAndLastDigit(str: string): { first: number; last: number } {
   const obj = { first: -1, last: -1 };
