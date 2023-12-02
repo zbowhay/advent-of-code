@@ -1,1 +1,1 @@
-console.log('hello');
+import('./day-1/part-1');
